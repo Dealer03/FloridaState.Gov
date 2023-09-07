@@ -4,11 +4,41 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link href="https://api.fontshare.com/v2/css?f[]=switzer@800,501,700,500&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=author@400,700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Florida State</title>
   </head>
-  <body>
-    <h1>Hello World!</h1>
+  <body class="container">
+    <main>
+      <aside class="sidebar">
+        <div class="sidebar__logo">
+          <img class="sidebar__logo-img" src="./public/fl-symbol.jpg" alt="Florida seal">
+          <h3 class="sidebar__title">florida</h3>
+        </div>
+        <div class="sidebar__line"></div>
+        <form class="sidebar__searchbar" action="" method="post">
+          <span><input type="text" placeholder="Search.."></span>
+          <span>
+            <button class="searchbar__btn btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+              <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
+            </svg>
+            </button>
+          </span>
+
+        </form>
+        <a class="sidebar__link-active" href="#">Home</a>
+        <a class="sidebar__link" href="#">Tallahasse</a>
+        <a class="sidebar__link" href="#">Miami</a>
+        <a class="sidebar__link" href="#">Jacksonville</a>
+        <a class="sidebar__link" href="#">Contact</a>
+      </aside>
+      <!-- <section></section> -->
+      <!-- <section></section> -->
+      <!-- <section></section> -->
+      <!-- <section></section> -->
+      <!-- <section></section> -->
+    </main>
+    <footer></footer>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
