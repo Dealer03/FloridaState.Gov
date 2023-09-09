@@ -9,36 +9,68 @@
     <title>Florida State</title>
   </head>
   <body class="container">
-    <header class="header">
-      <div class="header__logo">
-        <img class="header__logo-img" src="/fl-symbol.jpg" alt="Florida seal">
+    <header class="header container">
+      <div class="header__logo-wrapper">
+      <img class="header__logo-img" src="/fl-symbol.jpg" alt="Florida seal">
+      </div>
+      <div class="header__title-wrapper">
         <h3 class="header__title">florida</h3>
       </div>
     <nav>
-      <ul  class="navbar__menu">
+      <ul  class="header__menu">
         <li>
-          <a class="navbar__link" href="#home">Home</a>
+          <a class="header__link" href="#home">Home</a>
         </li>
         <li>
-          <a class="navbar__link" href="#tallahassee">Tallahassee</a>
+          <a class="header__link" href="#tallahassee">Tallahassee</a>
         </li>
         <li>
-          <a class="navbar__link" href="#miami">Miami</a>
+          <a class="header__link" href="#miami">Miami</a>
         </li>
         <li>
-          <a class="navbar__link" href="#jacksonville">Jacksonville</a>
+          <a class="header__link" href="#jacksonville">Jacksonville</a>
         </li>
         <li>
-          <form class="navbar__searchbar" action="" method="post">
-            <input type="search" placeholder="Search" aria-label="Search">
-            <button type="button" class="search__btn btn">Search</button>
-          </form>
+          <a class="header__link" href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
+    <button aria-label="theme-toggle btn" class="header__bars">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+      </svg>                 
+    </button>
     </header>
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">     
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li class="mobile-nav__link">
+            <a class="header__link" href="#home">Home</a>
+          </li>
+          <li class="mobile-nav__link">
+            <a class="header__link" href="#tallahassee">Tallahassee</a>
+          </li>
+          <li class="mobile-nav__link">
+            <a class="header__link" href="#miami">Miami</a>
+          </li>
+          <li class="mobile-nav__link">
+            <a class="header__link" href="#jacksonville">Jacksonville</a>
+          </li>
+          <li class="mobile-nav__link">
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End of Mobile Nav -->
     <main class="main">
-      <section class="home"></section>
+      <section class="home">
+        <form class="navbar__searchbar" action="" method="post">
+          <input class="search__text" type="text" placeholder="Search" aria-label="Search">
+          <input class="search__submit" value="Search" type="submit">
+        </form>
+      </section>
       <!-- <section></section> -->
       <!-- <section></section> -->
       <!-- <section></section> -->
