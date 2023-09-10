@@ -33,14 +33,12 @@
     grid-area: main;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
-    border: 2px solid red;
   }
 
   .sidebar {
     grid-area: sidebar;
     border-radius: var(--main-radius);
-    padding-top: var(--main-padding);
-    border: 2px solid red;
+    padding-top: var(--main-padding);;
   }
 
   .footer {
