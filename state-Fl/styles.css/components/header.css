@@ -35,8 +35,8 @@
     position: absolute;
     top: 5%;
     right: 5%;
-    background-color: var(--clr-blue800);
-    color: var(--clr-light);
+    background-color: var(--clr-yellow400);
+    color: var(--clr-slate600);
     width: var(--size-4xl);
     height: var(--size-4xl);
     border-radius: 5px;
