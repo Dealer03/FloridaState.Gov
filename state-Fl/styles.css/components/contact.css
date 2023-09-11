@@ -1,0 +1,99 @@
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "contact__links"
+    " contact__form-instructions"
+    "contact__form contact__form";
+    padding: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+
+.contact__form {
+    background-color: var(--clr-slate400);
+    border-radius: 10px;
+    justify-content: center;
+  }
+  .form-control {
+    font-size: var(--size-base);
+    padding: 1rem;
+  }
+
+  .row {
+    padding: 2rem;
+  }
+
+  .col {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .input-group {
+    padding: 1rem;
+  }
+
+  .input-group-text {
+    padding: 1rem;
+  }
+
+  input[type="email"] {
+    font-size: var(--size-lg);
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  textarea[type="text"] {
+    font-size: var(--size-lg);
+    text-align: center;
+  }
+
+  #submitForm {
+    font-size: var(--size-2xl);
+    width: 150px;
+    height: 50px;
+  }
+
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+ /* @media (min-width: 640px) {}  */
+/* md */
+@media (min-width: 768px) {
+    input[type="email"] {
+        font-size: var(--size-lg);
+        text-align: center;
+        width: 300px;
+        height: 50px;
+        border-radius: 5px;
+      }
+
+}
+/* Lg */
+@media (min-width: 1024px) {
+    input[type="email"] {
+        font-size: var(--size-lg);
+        text-align: center;
+        width: 500px;
+        height: 50px;
+        border-radius: 5px;
+      }
+      textarea {
+        width: 500px;
+      }
+      .contact__form {
+        width: 650px;
+      }
+}
+/* xL */
+/* @media (min-width: 1280px) {} */
+/* 2xL */
+/* @media (min-width: 1536px) {}  */  

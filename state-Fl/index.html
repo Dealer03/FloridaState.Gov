@@ -71,13 +71,13 @@
     </div>
     <!-- End of Mobile Nav -->
     <main class="main">
-      <section class="home">
+      <section id="home" class="home">
         <form class="home__search" action="" method="post">
           <input class="search__text" type="text" placeholder="Find what you are looking for here" aria-label="Search">
           <input class="search__submit" value="Search" type="submit">
         </form>
       </section>
-      <section class="florida city__section ">
+      <section id="florida" class="florida city__section ">
         <h2>Discover Florida: A Beacon of Diversity and Progress</h2>
         <p class="first__par">
           <img class="florida__img" src="/florida-7131256_640.png" alt="">
@@ -101,9 +101,10 @@
           Visit Florida. (n.d.). Florida History. Retrieved from https://www.visitflorida.com/en-us/florida-history.html<br>
           Enterprise Florida. (n.d.). Key Industries. Retrieved from https://www.enterpriseflorida.com/key-industries/<br>
         </p>
+        <a href="#home">Back to main</a>
         <div class="section__line"></div>
       </section>
-      <section class="tallahassee city__section">
+      <section id="tallahassee" class="tallahassee city__section">
         <h2>Tallahassee | the state capital</h2>
           <table class="fact__table">
             <h3>Quick Facts</h3>
@@ -163,9 +164,10 @@
           U.S. Census Bureau. (2021). QuickFacts: Florida. Retrieved from https://www.census.gov/quickfacts/fact/table/FL/PST045222<br>
         </p>
         </div>
+        <a href="#home">Back to main</a>
         <div class="section__line"></div>
       </section>
-      <section class="miami city__section">
+      <section id="miami" class="miami city__section">
           <h2>Miami</h2>
             <table class="fact__table">
               <h3>Quick Facts</h3>
@@ -222,9 +224,10 @@
             U.S. Census Bureau. (2021). QuickFacts: Florida. Retrieved from https://www.census.gov/quickfacts/fact/table/FL/PST045222<br>
           </p>
         </div>
+        <a href="#home">Back to main</a>
         <div class="section__line"></div>
       </section>
-      <section class="jacksonville city__section">
+      <section id="jacksonville" class="jacksonville city__section">
           <h2>Jacksonville</h2>
           <h3>quick facts</h3>
           <table class="fact__table">
@@ -253,6 +256,7 @@
                   <td><a href="https://www.coj.net/" target="_blank">City of Jacksonville</a></td>
             </tr>
           </table>
+          <div class="jacksonville__content">
           <p class="first__par">
             <img class="jacksonville__img" src="/jacksonville-77804_640.jpg" alt="Jacksonville">
             Jacksonville, often referred to as the "River City," boasts a thriving population that highlights its significance within the state. As of the most recent census, the city is home to approximately 911,507 residents (U.S. Census Bureau, 2020). The city's incorporation took place in 1832, marking the beginning of its journey as a vital hub within the state (City of Jacksonville, n.d.).
@@ -278,11 +282,47 @@
             U.S. Census Bureau. (2020). QuickFacts: Jacksonville city, Florida. Retrieved from https://www.census.gov/quickfacts/jacksonvillecityflorida <br>
             U.S. Census Bureau. (2021). QuickFacts: Florida. Retrieved from https://www.census.gov/quickfacts/fact/table/FL/PST045222 <br>
           </p>
-        <div class="jacksonville__content">
         </div>
+        </div>
+        <a href="#home">Back to main</a>
         <div class="section__line"></div>
       </section>
-      <section class="contact"></section>
+      <section id="contact" class="contact">
+        <div class="contact__links">
+          links
+        </div>
+        <div class="contact__form-instructions">
+          instructions
+        </div>
+        <div class="contact__form">
+          <form class="row">
+            <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
+            <div class="col">
+                <input type="email" class="form-control" placeholder="Email" id="Email1">
+            </div>
+            <div class="col">
+                <input type="email" class="form-control" placeholder="Confirm Email" id="Email2">
+            </div>
+              <span class="input-group-text">Leave a comment:</span>                      
+            <div class="input-group">
+                <textarea type="text" class="form-control" aria-label="With textarea" placeholder="Write your message here..."></textarea>
+            <div class="col"> 
+            <div class="row">                       
+            </div> 
+                <button onclick="compareEmails()" type="button" class="btn btn-secondary" id="submitForm">Submit</button>
+            </div>
+            </div>
+            </div>
+          </form>
+        </div>
+        <a href="#home">Back to main</a>
+      </section>
     </main>
     <div class="sidebar">
       <h2 class="sidebar__title">The sunshine state</h2>

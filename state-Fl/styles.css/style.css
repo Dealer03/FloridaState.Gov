@@ -126,7 +126,7 @@ h4 {
     gap: 1rem;
 }
 
-.section__line:not(:last-child) {
+.section__line {
     border: 1px solid var(--clr-slate600);
     width: 100%;
     margin-top: 3rem;
