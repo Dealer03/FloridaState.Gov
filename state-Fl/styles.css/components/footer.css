@@ -1,0 +1,16 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-area: "footer__left footer__center footer__right";
+    padding: 2rem;
+    background-color: var(--clr-blue800);
+}
+
+.gov {
+    display: flex;
+    justify-content: center;
+    font-size: var(--size-2xl);
+    color: var(--clr-light);
+    padding-top: 1rem;
+}

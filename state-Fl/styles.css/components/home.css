@@ -11,27 +11,27 @@
 
 .home__search {
     position: absolute;
-    left: 10%;
+    left: 5%;
     top: 20%;
     padding: 0.5rem;
     border-radius: 5px;
 }
 
 .search__submit {
-    font-size: var(--size-xs);
+    font-size: var(--size-base);
     color: var(--clr-slate600);
     background-color: var(--clr-yellow400);
     text-align: center;
-    width: 60px;
+    width: 80px;
     height: 50px;
-    padding-right: 1.5rem;
+    padding-right: 0.5rem;
     border-radius: 5px;
 }
 
 input[type="text"] {
-    font-size: var(--size-xs);
+    font-size: var(--size-base);
     text-align: center;
-    width: 200px;
+    width: 270px;
     height: 50px;
     border-radius: 5px;
   }
@@ -47,20 +47,20 @@ input[type="text"] {
     }
     
     .search__submit {
-        font-size: var(--size-sm);
+        font-size: var(--size-lg);
         color: var(--clr-slate600);
         background-color: var(--clr-yellow400);
         text-align: center;
-        width: 60px;
+        width: 80px;
         height: 50px;
-        padding-right: 1.5rem;
+        padding-right: 0.5rem;
         border-radius: 5px;
     }
     
     input[type="text"] {
-        font-size: var(--size-sm);
+        font-size: var(--size-lg);
         text-align: center;
-        width: 250px;
+        width: 200px;
         height: 50px;
         border-radius: 5px;
       }
@@ -80,9 +80,9 @@ input[type="text"] {
         color: var(--clr-slate600);
         background-color: var(--clr-yellow400);
         text-align: center;
-        width: 60px;
+        width: 80px;
         height: 50px;
-        padding-right: 1.5rem;
+        padding-right: 0.5rem;
         border-radius: 5px;
     }
     
@@ -109,7 +109,7 @@ input[type="text"] {
         color: var(--clr-slate600);
         background-color: var(--clr-yellow400);
         text-align: center;
-        width: 60px;
+        width: 80px;
         height: 50px;
         padding-right: 1.5rem;
         border-radius: 5px;
@@ -118,7 +118,7 @@ input[type="text"] {
     input[type="text"] {
         font-size: var(--size-lg);
         text-align: center;
-        width: 400px;
+        width: 300px;
         height: 50px;
         border-radius: 5px;
       }
@@ -127,7 +127,7 @@ input[type="text"] {
 @media (min-width: 1024px) {
     .home__search {
         position: absolute;
-        left: 30%;
+        left: 20%;
         top: 50%;
         padding: 0.5rem;
         border-radius: 5px;
@@ -138,7 +138,7 @@ input[type="text"] {
         color: var(--clr-slate600);
         background-color: var(--clr-yellow400);
         text-align: center;
-        width: 60px;
+        width: 80px;
         height: 50px;
         padding-right: 1.5rem;
         border-radius: 5px;
