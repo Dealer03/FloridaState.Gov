@@ -35,7 +35,7 @@
 
     /* border style */
     --main-radius: 5px;
-    --main-padding: 5px;
+    --main-padding: 0.5rem;
 }
 
 * {
@@ -78,3 +78,110 @@ a {
     margin: 0;
     border-radius: 5px;
 }
+
+p {
+    font-size: var(--size-base);
+}
+
+.first__par {
+    padding-top: 3rem;
+}
+
+.florida__img,
+.tallahassee__img,
+.miami__img,
+.jacksonville__img {
+    border-radius: 10px;
+    padding: var(--main-padding);
+}
+
+
+h2,
+h3 {
+    color: var(--clr-slate600);
+    text-transform: capitalize;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    color: var(--clr-slate600);
+    text-transform: capitalize;
+    padding-top: 1rem;
+}
+
+.city__section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-area: "city__content" 
+                "fact__table";
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    gap: 1rem;
+}
+
+.section__line {
+    border: 1px solid var(--clr-slate600);
+    width: 100%;
+    margin-top: 3rem;
+}
+
+aside {
+    font-size: var(--size-xl);
+    color: var(--clr-slate600);
+    font-weight: 700;
+    font-style: italic;
+    padding: 2rem;
+}
+
+.fact__table {
+    font-size: var(--size-base);
+    gap: 3rem;
+    padding-right: 1rem;
+}
+
+a[target="_blank"]::after {
+    content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==");
+    margin: 0px 3px 0px 5px;
+  }
+
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+ /* @media (min-width: 640px) {}  */
+/* md */
+@media (max-width: 768px) {
+    .city__section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-area: "city__content" 
+                    "fact__table";
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+        gap: 1rem;
+    }
+    .fact__table {
+        font-size: var(--size-base);
+        gap: 3rem;
+        padding-right: 5rem;
+    }
+}
+
+ @media (min-width: 769px) {
+    .fact__table {
+        font-size: var(--size-base);
+        gap: 3rem;
+        padding-right: 20rem;
+    }
+ } 
+/* Lg */
+/* @media (min-width: 1024px) {} */
+/* xL */
+/* @media (min-width: 1280px) {} */
+/* 2xL */
+/* @media (min-width: 1536px) {}  */

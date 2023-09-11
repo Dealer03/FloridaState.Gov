@@ -1,0 +1,53 @@
+.florida__img {
+    float: right;
+    width: 200px;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+/* sm */
+ @media (min-width: 640px) {
+    /* .florida__img {
+        float: right;
+        width: 200px;
+        height: 100%;
+    }  */
+ } 
+/* md */
+@media (max-width: 768px) {
+    .florida {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 5rem;
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .florida {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 5rem;
+        gap: 1rem;
+    }
+}    
+/* Lg */
+@media (min-width: 1024px) {
+    .florida__img {
+        float: right;
+        width: 400px;
+        height: 100%;
+    } 
+}
+/* xL */
+/* @media (min-width: 1280px) {} */
+/* 2xL */
+/* @media (min-width: 1536px) {}  */

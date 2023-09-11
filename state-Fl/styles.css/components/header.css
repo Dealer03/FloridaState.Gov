@@ -39,7 +39,7 @@
     color: var(--clr-slate600);
     width: var(--size-4xl);
     height: var(--size-4xl);
-    border-radius: 5px;
+    border-radius: var(--main-radius);
 }
 
 
