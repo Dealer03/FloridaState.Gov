@@ -12,6 +12,7 @@
 #home input[type=text] {
     width: 350px;
     height: 40px;
+    text-align: center;
 }
 
 .home__search {
