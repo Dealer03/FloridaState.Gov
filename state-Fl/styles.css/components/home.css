@@ -1,19 +1,26 @@
 .home {
-    display: block;
+    display: flex;
     position: relative;
     background-image: url(/frank-mckenna-OD9EOzfSOh0-unsplash.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     min-height: 800px;
     align-items: center;
+    justify-content: center;
+}
+
+#home input[type=text] {
+    width: 350px;
+    height: 40px;
 }
 
 .home__search {
-    position: absolute;
-    left: 5%;
-    top: 20%;
+    font-size: 18px;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    gap: 0.5rem;
 }
 
 .search__submit {
@@ -21,136 +28,44 @@
     color: var(--clr-slate600);
     background-color: var(--clr-yellow400);
     text-align: center;
-    width: 80px;
-    height: 50px;
     padding-right: 0.5rem;
-    border-radius: 5px;
+    width: 75px;
+    height: 40px;
 }
-
-input[type="text"] {
-    font-size: var(--size-base);
-    text-align: center;
-    width: 250px;
-    height: 50px;
-    border-radius: 5px;
-  }
 
 /* xs */
-@media (min-width: 475px) {
-    .home__search {
-        position: absolute;
-        left: 10%;
-        top: 30%;
-        padding: 0.5rem;
-        border-radius: 5px;
-    }
-    
-    .search__submit {
-        font-size: var(--size-lg);
-        color: var(--clr-slate600);
-        background-color: var(--clr-yellow400);
-        text-align: center;
-        width: 80px;
-        height: 50px;
-        padding-right: 0.5rem;
-        border-radius: 5px;
-    }
-    
-    input[type="text"] {
-        font-size: var(--size-lg);
-        text-align: center;
-        width: 200px;
-        height: 50px;
-        border-radius: 5px;
-      }
-}
+/* @media (min-width: 475px) {} */
 /* sm */
- @media (min-width: 640px) {
-    .home__search {
-        position: absolute;
-        left: 15%;
-        top: 30%;
-        padding: 0.5rem;
-        border-radius: 5px;
-    }
-    
-    .search__submit {
-        font-size: var(--size-base);
-        color: var(--clr-slate600);
-        background-color: var(--clr-yellow400);
-        text-align: center;
-        width: 80px;
-        height: 50px;
-        padding-right: 0.5rem;
-        border-radius: 5px;
-    }
-    
-    input[type="text"] {
-        font-size: var(--size-base);
-        text-align: center;
-        width: 300px;
-        height: 50px;
-        border-radius: 5px;
-      }
- } 
+ /* @media (min-width: 640px) {}  */
 /* md */
-@media (min-width: 768px) and (max-width: 1024px){
-    .home__search {
-        position: absolute;
-        left: 20%;
-        top: 30%;
-        padding: 0.5rem;
-        border-radius: 5px;
-    }
-    
-    .search__submit {
-        font-size: var(--size-lg);
-        color: var(--clr-slate600);
-        background-color: var(--clr-yellow400);
-        text-align: center;
-        width: 80px;
-        height: 50px;
-        padding-right: 1.5rem;
-        border-radius: 5px;
-    }
-    
-    input[type="text"] {
-        font-size: var(--size-lg);
-        text-align: center;
-        width: 300px;
-        height: 50px;
-        border-radius: 5px;
-      }
-}
-/* Lg */
-@media (min-width: 1024px) {
-    .home__search {
-        position: absolute;
-        left: 20%;
-        top: 50%;
-        padding: 0.5rem;
-        border-radius: 5px;
-    }
-    
-    .search__submit {
-        font-size: var(--size-lg);
-        color: var(--clr-slate600);
-        background-color: var(--clr-yellow400);
-        text-align: center;
-        width: 80px;
-        height: 50px;
-        padding-right: 1.5rem;
-        border-radius: 5px;
-    }
-    
-    input[type="text"] {
-        font-size: var(--size-lg);
-        text-align: center;
+@media (min-width: 768px) {
+    #home input[type=text] {
         width: 500px;
         height: 50px;
-        border-radius: 5px;
-      } 
+    }
+    
+    .home__search {
+        font-size: 18px;
+        padding: 0.5rem;
+        border-radius: 10px;
+        width: 600px;
+        height: 300px;
+        gap: 0.5rem;
+    }
+    
+    .search__submit {
+        font-size: var(--size-base);
+        color: var(--clr-slate600);
+        background-color: var(--clr-yellow400);
+        text-align: center;
+        padding-right: 0.5rem;
+        width: 75px;
+        height: 50px;
+    }
+    
 }
+/* Lg */
+/* @media (min-width: 1024px) {} */
 /* xL */
 /* @media (min-width: 1280px) {} */
 /* 2xL */

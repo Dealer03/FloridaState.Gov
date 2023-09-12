@@ -13,6 +13,7 @@
 }
 
 .contact__form {
+  display: flex;
     background-color: var(--clr-slate400);
     border-radius: 10px;
     justify-content: center;
@@ -67,32 +68,9 @@
 /* sm */
  /* @media (min-width: 640px) {}  */
 /* md */
-@media (min-width: 768px) {
-    input[type="email"] {
-        font-size: var(--size-lg);
-        text-align: center;
-        width: 300px;
-        height: 50px;
-        border-radius: 5px;
-      }
-
-}
+@media (min-width: 768px) {}
 /* Lg */
-@media (min-width: 1024px) {
-    input[type="email"] {
-        font-size: var(--size-lg);
-        text-align: center;
-        width: 500px;
-        height: 50px;
-        border-radius: 5px;
-      }
-      textarea {
-        width: 500px;
-      }
-      .contact__form {
-        width: 650px;
-      }
-}
+@media (min-width: 1024px) {}
 /* xL */
 /* @media (min-width: 1280px) {} */
 /* 2xL */
